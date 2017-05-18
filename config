@@ -1,0 +1,7 @@
+Host *
+	ServerAliveInterval 60
+
+### - Proxying
+#Host XXX.XX.*
+#	ProxyCommand ssh <user>@<host> -i <key> nc %h %p
+#	IdentityFile <key>
